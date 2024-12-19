@@ -9,7 +9,7 @@ export const useCalls = () => {
   useEffect(() => {
     setLoading(true);
 
-    fetch("src/data/data.json")
+    fetch("/data/data.json")
       .then((response) => response.json())
       .then((data) => setCalls(data))
       .catch((error) => console.error("Ocurrio un error: ", error))

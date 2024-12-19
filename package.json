@@ -2,6 +2,10 @@
   "name": "prueba-tecnica-react-growfik",
   "private": true,
   "version": "0.0.0",
+  "author": {
+    "name": "Jhon Eduard Bocanegra",
+    "email": "jhon.bocanegra26@gmail.com"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
